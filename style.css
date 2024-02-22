@@ -1,10 +1,15 @@
 /*
 Theme Name: Bennett Challenge by Audrey
-Description: Simple information website theme for Bennett Mikwala.
+Description: Overview Madolo a Nitel is a sleek and modern WordPress theme designed by Bennett as a Challenge, specifically for IT services and technology-related websites. Whether you’re a tech startup, an IT consultancy, or a software development company, this theme provides an elegant and functional platform to showcase your expertise and connect with your audience. Happy building!
 Author: Bennett Mikwala
 Version: 1.0
 */
 /* Teal and black-and-white color scheme */
+.theme-image {
+    background-image: url('img/1.jpg'); 
+    background-size: cover;
+    height: 300px; 
+}
 body::before{
     display:block;
     content:'';

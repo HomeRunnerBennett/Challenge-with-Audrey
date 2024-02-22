@@ -16,25 +16,25 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse-navbar-collapse" id="navmenu">
+            <div class="collapse-navbar-collapse py-4" id="navmenu" >
                 <ul class="navbar-nav" ms-auto>
                     <li class="navbar-item">
                         <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#news" class="nav-link">Administration</a>
+                        <a href="#carouselExample" class="nav-link">Portfolio</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#about" class="nav-link">First Lady</a>
+                        <a href="#contact" class="nav-link">Our Services In General</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#home" class="nav-link">News Updates</a>
+                        <a href="#Home" class="nav-link">Reload Page Yonse</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#news" class="nav-link">Media</a>
+                        <a href="#news" class="nav-link">News Media</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#about" class="nav-link">Tenders</a>
+                        <a href="#accordian" class="nav-link">Accordian ya Matama</a>
                     </li>
                     <a
                     class="btn btn-link btn-floating btn-lg text-dark m-1"

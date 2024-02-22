@@ -1,21 +1,6 @@
 <?php get_header(); ?>
 <link rel="stylesheet" href="styles.css">
-<!-- Home Section -->
-<section id="home" class="section">
-    <div class="container">
-        <h1>Welcome to Madolo a Nitel</h1>
-        <p>Your go-to source for IT services.</p>
-    </div>
-    <div class="content">
-    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <h2><?php the_title(); ?></h2>
-        <div class="post-content">
-            <?php the_content(); ?>
-        </div>
-    <?php endwhile; endif; ?>
-</div>
-</section>
-  <!-- Slider Starts here -->
+    <!-- Slider Starts here -->
   <section class="align-items-center justify-content-between">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-indicators">
@@ -54,6 +39,21 @@
               </div>
     </section>
     <!-- slider ends here -->
+    <!-- Home Section -->
+    <section id="news" class="section">
+        <div class="container">
+            <h1>Welcome to Madolo a Nitel</h1>
+            <p>Your go-to source for IT services.</p>
+        </div>
+        <div class="content">
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            <h2><?php the_title(); ?></h2>
+            <div class="post-content">
+                <?php the_content(); ?>
+            </div>
+        <?php endwhile; endif; ?>
+    </div>
+    </section>
     <!-- Showcase Area -->
     <section id="Home" class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div class="container">
@@ -156,14 +156,7 @@
                 </div>
                 <div class="col-md">
                     <h3>What We Do</h3>
-                    <p class="lead">Welcome to NITEL, where innovation meets expertise in the realm of software development. As developers at NITEL, our mission is to push the boundaries of technology and create solutions that redefine the landscape of IT in Malawi and beyond.
-
-                    Crafting Digital Experiences:
-                    At NITEL, we are architects of digital experiences. Our team of skilled developers leverages cutting-edge technologies to design and build software applications that captivate, engage, and delight users. From intuitive user interfaces to seamless interactions, we bring ideas to life in the digital realm.
-
-                    Driving Technological Innovation:
-                    Innovation is in our DNA. We are not just developers; we are pioneers exploring the uncharted territories of technology. NITEL thrives on creating groundbreaking solutions that address real-world challenges. Whether it's developing scalable platforms, harnessing the power of artificial intelligence, or diving into the realms of blockchain, we are at the forefront of technological advancement.</p>
-                    <p class="">Collaborative Solutions for Success:
+                <p class="">Collaborative Solutions for Success:
                     Our collaborative approach sets us apart. We believe in the power of teamwork and collective intelligence. At NITEL, developers collaborate seamlessly to create solutions that transcend individual capabilities. The synergy of diverse minds working together results in robust, efficient, and scalable software applications.
 
                     Agile Development for Rapid Results:
@@ -189,12 +182,17 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md text-light">
-                    <h3>HERE WE NOT HERE</h3>
-                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deserunt consequatur nesciunt ab ad fuga?</p>
-                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nisi obcaecati dolorem minus unde sapiente sit magni voluptatum alias corporis quos, veniam molestias commodi, provident fugit dolor incidunt eveniet quidem!</p>    
-                <a href="" class="btn bg-secondary text-light">
+                    <h3>Who We Are</h3>
+                    <p class="lead">Welcome to NITEL, where innovation meets expertise in the realm of software development. As developers at NITEL, our mission is to push the boundaries of technology and create solutions that redefine the landscape of IT in Malawi and beyond.
+
+                        Crafting Digital Experiences:
+                        At NITEL, we are architects of digital experiences. Our team of skilled developers leverages cutting-edge technologies to design and build software applications that captivate, engage, and delight users. From intuitive user interfaces to seamless interactions, we bring ideas to life in the digital realm.
+
+                        Driving Technological Innovation:
+                        Innovation is in our DNA. We are not just developers; we are pioneers exploring the uncharted territories of technology. NITEL thrives on creating groundbreaking solutions that address real-world challenges. Whether it's developing scalable platforms, harnessing the power of artificial intelligence, or diving into the realms of blockchain, we are at the forefront of technological advancement.</p>
+                    <a href="" class="btn bg-secondary text-light">
                     <i class="bi bi-house"></i>
-                    READ A WAY LESS
+                    READ WAY LESS
                 </a>
                 </div>
                 <div class="col-md">
@@ -212,31 +210,31 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Accordion Item #1
+                    Revolutionizing Connectivity
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#about">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    <div class="accordion-body">NITEL has been at the forefront of revolutionizing connectivity in Malawi. Through strategic infrastructure development and the deployment of cutting-edge networking solutions, we have enhanced digital connectivity across the nation. From urban centers to remote areas, our commitment to bridging the digital divide has empowered communities and businesses alike.</div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      Accordion Item #2
+                    Empowering Local Businesses
                     </button>
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#about">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    <div class="accordion-body">Our impact goes beyond technology; it extends to the heart of local businesses. NITEL's software solutions have empowered businesses across various sectors, providing them with the tools needed to thrive in the digital age. From streamlined operations to innovative customer engagement platforms, our contributions have catalyzed growth and efficiency.</div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Accordion Item #3
+                    Innovative Solutions for Malawi's Challenges
                     </button>
                   </h2>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#about">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    <div class="accordion-body">NITEL's commitment to innovation is evident in the solutions we've crafted to address Malawi's unique challenges. From agricultural technology to healthcare solutions, our team of developers has harnessed the power of technology to create bespoke solutions that have a meaningful impact on the nation's development.</div>
                   </div>
                 </div>
               </div>
@@ -244,24 +242,7 @@
     </section>
     <!-- Questions end here -->
 <?php get_footer(); ?>
-<script>
-    // Smooth scroll to section when clicking on navigation links
-document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('nav ul li a');
-    navLinks.forEach(link => {
-        link.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            target.scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-});
 
-</script>
-
-  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </body>
 </html>

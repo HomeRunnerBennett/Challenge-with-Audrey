@@ -1,58 +1,82 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html lang="en">
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php wp_title(); ?></title>
-    <?php wp_head(); ?>
-    <style>
-        /* Add any additional styles specific to the header */
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #008080; /* Teal color */
-            color: #fff; /* White text color */
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #000; /* Black color */
-            padding: 10px 0;
-        }
-
-        nav a {
-            color: #fff; /* White text color */
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-            transition: color 0.3s ease-in-out;
-        }
-
-        nav a:hover {
-            color: #008080; /* Teal color on hover */
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Madolo a NITEL</title>
 </head>
-<body <?php body_class(); ?>>
-
-<header>
-    <h1>Madolo a Nitel</h1>
-</header>
-
-<nav>
-    <a href="#hero-slider">Home</a>
-    <a href="#services">Services</a>
-    <a href="#about">About Us</a>
-    <!-- Add more navigation links as needed -->
-</nav>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top text-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Madolo aku Nitel SysAdmin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse-navbar-collapse" id="navmenu">
+                <ul class="navbar-nav" ms-auto>
+                    <li class="navbar-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#news" class="nav-link">Administration</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#about" class="nav-link">First Lady</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#home" class="nav-link">News Updates</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#news" class="nav-link">Media</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#about" class="nav-link">Tenders</a>
+                    </li>
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="bi bi-facebook-f"></i
+                  ></a>
+                  <!-- Twitter -->
+                  <a
+                    class="navbar-item btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="bi bi-twitter"></i
+                  ></a>           
+                  <!-- Google -->
+                  <a
+                    class="navbar-item btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="bi bi-google"></i
+                  ></a>         
+                  <!-- Instagram -->
+                  <a
+                    class="navbar-item btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <!-- Linkedin -->
+                  <a
+                    class="navbar-item btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar ends here -->

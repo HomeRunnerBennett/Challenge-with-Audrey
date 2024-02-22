@@ -4,39 +4,13 @@ Description: Simple information website theme for Bennett Mikwala.
 Author: Bennett Mikwala
 Version: 1.0
 */
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff; /* Teal color */
-    color: #000; /* Black text color */
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth; /* Enable smooth scrolling */
+/* Teal and black-and-white color scheme */
+body::before{
+    display:block;
+    content:'';
+    height: 60px;
 }
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+@media(min-width:768px){
+ .news-input{width:50%;
 }
-
-.section {
-    padding: 50px 0;
 }
-
-#hero-slider {
-    height: 100vh;
-    background-color: #008080; /* Teal color */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff; /* White text color */
-}
-
-#services .card {
-    background-color: #008080; /* Teal color */
-    color: #000; /* Black text color */
-    padding: 20px;
-    margin: 20px 0;
-}
-
